@@ -1,0 +1,140 @@
+body {
+    background-color: #333;
+    padding-top: 100px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+    padding: 25px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+nav .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s;
+}
+ul {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+nav ul li:hover a {
+    color: rgb(96, 245, 96);
+}
+.Home {
+    top: 1000px;
+}
+.profile {
+display: block;
+margin: auto;
+margin-top: 10px;
+width: 50%;
+border-radius: 200px;
+max-width: fit-content;
+}
+.text {
+    font-size: large;
+    align-content: center;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text-4xl {
+    font-size: 2.25rem;
+    line-height: 3rem;
+}
+.text1 {
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    margin-top: -25px;
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+.text2 {
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 200;
+}
+.text3 {
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 200;
+}
+.goal {
+    color: #fff;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.b1 {
+    color: white;
+    background-color: #ff6600;
+    font-size: 15px;
+    font-weight: bold;
+}
+.b2 {
+    color: white;
+    background-color: rgb(73, 72, 72);
+    font-size: 15px;
+    font-weight: bold;
+}
