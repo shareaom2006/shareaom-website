@@ -1,6 +1,7 @@
 body {
     background-color: #333;
     padding-top: 100px;
+    height: auto;
 }
 a {
     color: white;
@@ -34,7 +35,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 nav ul li a {
@@ -44,8 +45,9 @@ nav ul li a {
     transition: .5s;
 }
 ul {
+    display: flex;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 200px;
 }
 nav ul li:hover a {
     color: rgb(96, 245, 96);
@@ -138,3 +140,151 @@ button {
     font-size: 15px;
     font-weight: bold;
 }
+.s1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.Skills {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.html {
+    object-fit: contain;
+    width: 60px;
+    background-color: #7e7979;
+}
+.slogo {
+    border: #333;
+    background-color: rgb(124, 119, 119);
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 4px;
+
+}
+.s2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Reduce gap */
+    padding: 10px
+}
+.s3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Reduce gap */
+    padding: 10px
+}
+.s2text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+.ps3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px; /* Reduce gap */
+    padding: 10px
+}
+.pslogo {
+    border: #333;
+    background-color: rgb(124, 119, 119);
+    width: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-top: 4px;
+}
+.new {
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+    padding: 20px;
+}
+.a , .b {
+    display: flex;
+    align-items: center;
+    background-color: rgb(124, 119, 119);
+    width: 40%;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    transition: all .5s ease;
+
+}
+.a:hover{
+    width: 45%;
+    height: 110px;
+}
+.b:hover{
+    width: 45%;
+    height: 110px;
+}
+.project {
+    width: 80px;
+    height: 65px;
+    border-radius: 10px;
+    margin-left: 10px;
+   
+}
+.new p {
+        p {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        margin: 0;
+        flex-grow: 1; /* Allows text to fill available space */
+        white-space: nowrap; /* Prevents text from wrapping */
+        overflow: hidden; /* Prevents text overflow */
+        text-overflow: ellipsis; /* Adds "..." when text overflows */
+    }
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.c {
+    background-color: rgb(124, 119, 119);
+    color: white;
+    width: 100%;
+    max-width: 1000px;
+    height: auto; /* Allow height to adjust dynamically */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Optional: rounded corners */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
